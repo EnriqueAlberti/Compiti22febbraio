@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main() {
+    // Inizializza il generatore di numeri casuali
+    srand(time(0));
+    
+    // Genera un numero casuale tra 1 e 100
+    int numeroCasuale = rand() % 100 + 1;
+    
+    // Stampa il numero casuale
+    cout << "Il numero casuale generato è: " << numeroCasuale << endl;
+    
+    return 0;
+}
