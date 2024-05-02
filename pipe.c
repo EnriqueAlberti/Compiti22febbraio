@@ -4,9 +4,9 @@
 #include <sys/wait.h>
 
 #define BLOCK_DIM 1024
+#define N_DOMANDE 10
 
 int main(int argc, char* argv[]){
- argv = 'origine.txt';
  FILE *file;
  unsigned char buffer[BLOCK_DIM];
  int n;
